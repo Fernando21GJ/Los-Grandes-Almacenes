@@ -11,6 +11,7 @@
    ```
 
    Ejemplo de salida:
+   ```bash
    laclavees12345@laclavees12345s-MacBook-Pro almacenes-db-docker % docker exec -i almacenes_db psql -U admin -d almacenes_db -f /queries.sql
    nombre   | ventas 
 ------------+--------
@@ -84,7 +85,6 @@ PostgreSQL está listo. Ejecutando queries.sql dentro del contenedor...
  cedula | nombre 
 --------+--------
 (0 rows)
-
 
 
 
